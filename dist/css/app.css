@@ -8,3 +8,82 @@ body {
   font-family: "Segoe UI";
   font-size: 16px;
 }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.main-header {
+  background-color: #000;
+}
+
+.main-navbar .navbar-top ul {
+  display: flex;
+  flex-direction: "";
+  flex-wrap: "";
+  justify-content: flex-end;
+  align-items: "";
+}
+.main-navbar .navbar-top ul li {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: "";
+  flex-wrap: "";
+  justify-content: "";
+  align-items: center;
+}
+.main-navbar .navbar-top ul .fas {
+  color: #009cff;
+  margin-right: 10px;
+}
+.main-navbar .navbar-top ul a {
+  margin-right: 20px;
+  color: #989898;
+  font-size: 12px;
+}
+.main-navbar .navbar-bottom {
+  display: flex;
+  flex-direction: "";
+  flex-wrap: "";
+  justify-content: "";
+  align-items: center;
+}
+.main-navbar .navbar-bottom img {
+  width: 90px;
+  margin: 0 15px;
+}
+.main-navbar .navbar-bottom ul {
+  display: flex;
+  flex-direction: "";
+  flex-wrap: "";
+  justify-content: "";
+  align-items: "";
+}
+.main-navbar .navbar-bottom ul a {
+  display: inline-block;
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 14px;
+}
+.main-navbar .navbar-bottom ul a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.main-navbar .navbar-bottom ul a .fa-angle-down {
+  font-size: 12px;
+  color: #878787;
+  vertical-align: middle;
+}

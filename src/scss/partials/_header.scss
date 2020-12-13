@@ -1,0 +1,48 @@
+.main-header {
+    background-color: $black;
+}
+
+// NAVBAR
+.main-navbar {
+    .navbar-top ul {
+            @include display-flex('','', flex-end, '');
+            li {
+                padding: 10px 0;
+                @include display-flex('','','', center);
+            }
+            .fas {
+                color: #009cff;
+                margin-right: 10px;
+            }
+            a {
+                margin-right: 20px;
+                color: #989898;
+                font-size: 12px;
+            }
+    }
+    .navbar-bottom {
+        @include display-flex('','','',center);
+        img {
+            width: 90px;
+            margin: 0 15px;
+        }
+        ul {
+            @include display-flex('','','','');
+            a {
+                display: inline-block;
+                padding: 15px 25px;
+                color: $white;
+                font-size: 14px;
+                &:hover {
+                    background-color: #fff;
+                    color: #000;
+                }
+                .fa-angle-down {
+                    font-size: 12px;
+                    color: #878787;
+                    vertical-align: middle;
+                }
+        }
+        }
+    }
+}

@@ -1,4 +1,5 @@
-// GENERAL
+// RESET
+
 * {
     margin: 0;
     padding: 0;
@@ -8,4 +9,23 @@
 body {
     font-family: $font-segoe;
     font-size: $base-font;
+}
+
+// LAYOUT
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
 }
